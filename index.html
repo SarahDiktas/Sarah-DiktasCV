@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Sarah Diktas</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Sarah DIKTAS</h1>
+    </header>
+    <section class="about">
+<img src="images/profil.png" alt="Photo de Sarah">
+<h2>Présentation</h2>
+<p>
+  Bonjour, 
+  Je suis Sarah Diktas étudiante en 2e année de master en Web Marketing.
+ <a href="https://www.linkedin.com/in/sarah-diktas/" target="_blank">Chargée de communication et marketing Junior</a> en alternance au théâtre La Scala Paris.
+</p>
+    </section>
+  <section class="skills">
+  <h2>Compétences</h2>
+
+  <div class="skills-content">
+	  <div class="skills-column">
+      <div class="progress-container">
+        <span class="progress-badge">HTML</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;"></div>
+          <span class="progress-value">90%</span>
+        </div>
+        
+      </div>
+	  </div>
+	
+	  <div class="skills-column">
+      <div class="progress-container">
+        <span class="progress-badge">CSS</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 95%;"></div>
+          <span class="progress-value">95%</span>
+        </div>
+      </div>
+      <div class="progress-container">
+        <span class="progress-badge">Photoshop</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 60%;"></div>
+          <span class="progress-value">60%</span>
+        </div>
+      </div>
+      <!-- Fin .progress-container -->
+      <div class="progress-container">
+        <span class="progress-badge">XD</span>
+        <div class="progress">
+          <div class="progress-bar" style="width: 65%;"></div>
+          <span class="progress-value">65%</span>
+        </div>
+      </div>
+      <!-- Fin .progress-container -->
+	  </div>
+	 
+	</div>
+
+  </section>
+
+ <section class="timeline">
+
+  <H2>Expériences</H2>
+
+  <ul>
+    <!--Début expérience 1-->
+    <li class="in-view">
+
+   <div class="bubble">
+     <span class="periode">Mai 2018 - Août 2018</span>
+       <span >Stagiaire en communication et événementiel</span><br>
+       Paris, France
+      </span>
+   </div>
+  </li>
+ <!--Fin expérience 1-->
+   <!--Début expérience 2-->
+  <li class="in-view">
+
+    <div class="bubble">
+      <span class="periode">Septembre 2018 - Octobre 2019</span>
+        <span >Serveuse en restauration</span><br>
+        Vincennes, France
+       </span>
+    </div>
+   </li>
+    <!--Fin expérience 2-->
+  <!--Début expérience 3-->
+   <li class="in-view">
+
+    <div class="bubble">
+      <span class="periode">Février 2020 - Mars 2020</span>
+        <span >Conseillère Junior</span><br>
+        Fontenay-sous-Bois, France
+       </span>
+    </div>
+   </li>
+ <!--Fin expérience 3-->
+   <!--Début expérience 4-->
+   <li class="in-view">
+
+    <div class="bubble">
+      <span class="periode">Octobre 2021 - Aujourd'hui</span>
+        <span >Chargée de communication et marketing</span><br>
+        Paris, France
+       </span>
+    </div>
+   </li>
+  <!--Fin expérience 4-->
+  </ul>
+ </section>
+
+ <section class="contact">
+  <h2>Contact</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.76457443931!2d2.2769949540005654!3d48.85894658130252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1639748765758!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <form name="contact" method="POST">
+    <div class="row">
+      <div class="form-group">
+        <label>Nom</label>
+        <input type="text" name="name" placeholder="Votre nom" required />
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Votre email"
+          required
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Message</label>
+      <textarea
+        name="message"
+        placeholder="Votre message..."
+        required
+      ></textarea>
+    </div>
+    <button class="btn">Envoyer</button>
+  </form>
+</section>
+  
+
+  </body>
+</html>
